@@ -1486,7 +1486,10 @@ hr {
 
 .sub-style{
   vertical-align: bottom; 
-  color:midnightblue
+  color:#fd7e14;
+  text-align:center;
+  font-size: x-small;
+  font-weight: 500;
 }
 
 .baba-header{
