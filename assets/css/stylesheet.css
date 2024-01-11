@@ -1484,14 +1484,38 @@ hr {
   flex: 1; /* Takes up remaining space */
 }
 
-.sub-style{
-  vertical-align: bottom; 
-  color:#fd7e14;
-  text-align:center;
-  font-size: 8px;
-  font-weight: 500;
+.div-bold-ctr{
+  text-align: center; 
+  width:100%; 
+  font-weight: bold;
+
 }
 
+.div-ctr{
+  text-align: center; 
+  width:100%; 
+}
+
+.div-bold-right{
+  text-align: center; 
+  width:100%; 
+  font-weight: bold;
+  
+}
+
+.sub-style{
+  vertical-align: bottom; 
+  color:red;
+  text-align:right;
+  font-size: 10px;
+  font-weight: 500;
+}
+.baba-prardhana{
+ text-align: justify;
+ width: 100%;
+ font-weight: 300;
+ color:chocolate
+}
 .baba-header{
   font-weight:bold; color:saddlebrown
 }
@@ -1529,7 +1553,9 @@ hr {
 .telugu-font-saibaba-ramabhadra {
   font-family: 'ramabhadra', sans-serif; /*'Noto Sans Telugu'*/
 }
-
+.en-font-saibaba-sansitc{
+  font-family: 'Tempus Sans ITC', sans-serif; /*'Noto Sans Telugu'*/
+}
 /*UPDATES END*/
 
 @media (max-width: 991.98px) {
