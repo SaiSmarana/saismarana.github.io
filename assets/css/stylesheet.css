@@ -1477,6 +1477,12 @@ hr {
     color: #fff;
   }
 }
+
+.header-content {
+  text-align: center;
+  flex: 1; /* Takes up remaining space */
+}
+
 @media (max-width: 991.98px) {
   .navbar-expand-lg .navbar-collapse {
     position: absolute;
