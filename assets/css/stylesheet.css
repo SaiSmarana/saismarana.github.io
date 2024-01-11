@@ -1478,10 +1478,56 @@ hr {
   }
 }
 
+/* SAIBABA UPDATES START*/
 .header-content {
   text-align: center;
   flex: 1; /* Takes up remaining space */
 }
+
+.sub-style{
+  vertical-align: bottom; 
+  color:midnightblue
+}
+
+.baba-header{
+  font-weight:bold; color:saddlebrown
+}
+
+
+@font-face {
+  font-family: 'NTR'; /* Choose a name for your font */
+  src: local('NTR'), url('../fonts/NTR.ttf') format('truetype'); /* Update the path accordingly */
+  font-weight: 100; /* Adjust the font-weight if needed */
+  font-style: normal; /* Adjust the font-style if needed */
+}
+
+@font-face {
+  font-family: 'dhurjati'; /* Choose a name for your font */
+  src: local('dhurjati'), url('../fonts/dhurjati.ttf') format('truetype'); /* Update the path accordingly */
+  font-weight: 50; /* Adjust the font-weight if needed */
+  font-style: normal; /* Adjust the font-style if needed */
+}
+
+@font-face {
+  font-family: 'ramabhadra'; /* Choose a name for your font */
+  src: local('ramabhadra'), url('../fonts/ramabhadra.ttf') format('truetype'); /* Update the path accordingly */
+  font-weight: 50; /* Adjust the font-weight if needed */
+  font-style: normal; /* Adjust the font-style if needed */
+}
+
+
+.telugu-font-saibaba-ntr {
+  font-family: 'NTR', sans-serif; /*'Noto Sans Telugu'*/
+}
+
+.telugu-font-saibaba-dhurjati {
+  font-family: 'dhurjati', sans-serif; /*'Noto Sans Telugu'*/
+}
+.telugu-font-saibaba-ramabhadra {
+  font-family: 'ramabhadra', sans-serif; /*'Noto Sans Telugu'*/
+}
+
+/*UPDATES END*/
 
 @media (max-width: 991.98px) {
   .navbar-expand-lg .navbar-collapse {
