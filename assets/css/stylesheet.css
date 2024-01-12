@@ -1496,8 +1496,24 @@ hr {
   width:100%; 
 }
 
+.div-justify{
+  text-align: justify; 
+  width:100%; 
+}
+
 .div-bold-right{
   text-align: center; 
+  width:100%; 
+  font-weight: bold;
+  
+}
+.clr-brown{
+color: brown !important;
+}
+
+
+.div-bold-left{
+  text-align: left; 
   width:100%; 
   font-weight: bold;
   
@@ -1542,6 +1558,28 @@ hr {
   font-style: normal; /* Adjust the font-style if needed */
 }
 
+@font-face {
+  font-family: 'TEMPSITC'; /* Choose a name for your font */
+  src: local('TEMPSITC'), url('../fonts/TEMPSITC.TTF') format('truetype'); /* Update the path accordingly */
+  font-weight: 50; /* Adjust the font-weight if needed */
+  font-style: normal; /* Adjust the font-style if needed */
+}
+
+
+@font-face {
+  font-family: 'TEMPSITC'; /* Choose a name for your font */
+  src: local('TEMPSITC'), url('../fonts/TEMPSITC.TTF') format('truetype'); /* Update the path accordingly */
+  font-weight: 50; /* Adjust the font-weight if needed */
+  font-style: normal; /* Adjust the font-style if needed */
+}
+
+@font-face {
+  font-family: 'corbel'; /* Choose a name for your font */
+  src: local('corbel'), url('../fonts/corbel.ttf') format('truetype'); /* Update the path accordingly */
+  font-weight: 50; /* Adjust the font-weight if needed */
+  font-style: normal; /* Adjust the font-style if needed */
+}
+
 
 .telugu-font-saibaba-ntr {
   font-family: 'NTR', sans-serif; /*'Noto Sans Telugu'*/
@@ -1556,6 +1594,12 @@ hr {
 .en-font-saibaba-sansitc{
   font-family: 'Tempus Sans ITC', sans-serif; /*'Noto Sans Telugu'*/
 }
+
+.en-font-saibaba-corbel{
+  font-family: 'Corbel', sans-serif; /*'Noto Sans Telugu'*/
+}
+
+
 /*UPDATES END*/
 
 @media (max-width: 991.98px) {
