@@ -10,7 +10,7 @@
   console.log('The current path :' , currentPath)
  
   // Use fetch to load the content of snippet.html
-  fetch(`${currentPath}header.html`)
+fetch(`${currentPath}header.html`)
   //fetch(`header.html`)
     .then(response => response.text())
     .then(html => {
