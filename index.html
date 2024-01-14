@@ -23,8 +23,15 @@
 <link rel="stylesheet" type="text/css" href="assets/css/saismarana.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
 
-<script src="./assets/js/header_loader.js"  data-container-id="header-id"></script>
-
+<!-- <script src="./assets/js/header_loader.js"  data-container-id="header"></script> -->
+<!-- <script>
+fetch('header.html')
+.then(response => response.text())
+.then(html => {
+  // Insert the HTML content into the container element
+  document.getElementById('header').innerHTML = html;
+}); 
+</script>-->
 </head>
 
 <body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
@@ -38,7 +45,7 @@
     <div></div>
   </div>
 </div>
-<!-- Preloader End --> 
+<!-- Preloader End  -->
 
 <!-- Document Wrapper   
 =============================== -->
@@ -49,10 +56,22 @@
   <div id="content" role="main">
 
     <!-- Header ============================ -->
-   <div id="header-id">   </div>
-   <!-- Header End -->  
+    <header id="header" class="sticky-top">
+      <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+        <div class="container-fluid">
+          <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button">
+            <span></span>
+            <span class="w-75"></span>
+            <span class="w-50"></span>
+          </button>
+          <div class="header-content telugu-font-saibaba-ntr">
+            <span class="text-7  baba-header">Sai Smarana</span>
+          </div>
+      
+        </div>
+      </nav>
+      </header>    
 
-   
 	<!-- Sidebar Navigation
 	============================ -->
   <div class="idocs-navigation bg-light">
